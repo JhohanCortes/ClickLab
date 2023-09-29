@@ -1,9 +1,9 @@
-*{
+@import "../abstracts/mixins";
 
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
 
 li {
@@ -32,3 +32,32 @@ textarea {
     height: 50px;
 }
 
+.list-buttom {
+    background-color: var(--pink-color);
+    color: var(--bone-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    bottom: 5px;
+}
+
+.list-buttom:hover {
+    filter: brightness(90%);
+}
+
+.cards {
+    margin-top: 30px;
+    @include grid(4, 2px);
+}
+
+.card {
+    @include flexible(flex, column, nowrap, flex-start, center);
+    margin: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.description{
+    width: 260px;
+}

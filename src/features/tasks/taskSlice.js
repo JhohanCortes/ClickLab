@@ -1,6 +1,50 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = [];
+const initialState = [{
+  id: 1,
+  title: "Holi",
+  description: "descripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripcióndescripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},{
+  id: 1,
+  title: "Holi",
+  description: "descripción"
+},];
 
 export const taskSlice = createSlice({
   name: "tasks",
